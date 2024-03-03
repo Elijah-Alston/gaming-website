@@ -1,0 +1,1021 @@
+/*CSS RESET*/
+body, header, nav, main, footer, img, h1{
+margin: 0;
+padding: 0;
+border: 0;
+color: white;
+}
+
+/* NAV*/
+
+.NFTP{
+  position: realitive;
+  top: 0;
+ 
+	
+}
+
+ .NFTPUL{
+	
+	list-style-type: none;
+	padding: 5px;
+    background-color:   #4d0028;
+	position: sticky;
+	top:0;
+	margin: 0;
+	text-align: center;
+	padding-bottom: 5px;
+	
+}
+.NFTPLI{
+	display: inline-block;
+}
+	
+
+.NFTPA{
+	display: block;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	padding: 10px 25px;
+	text-decoration: none;
+	
+	}
+	
+/* Change the link color on hover */
+.NFTPA:hover {
+  background-color: #FAFAD2;
+  color: black;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+.active {
+border-radius: 50%;
+ background-color: #ff6666;
+}
+	
+/*Links*/
+.link{
+	text-decoration: none;
+}
+
+/*end of nav*/
+
+
+/*Hamburger menu*/
+.CMI{
+	display: none;
+	
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+
+ .MUL{
+	
+	list-style-type: none;
+    background-color:   #4d0028;
+	
+	
+	
+	 position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  padding-top: 4rem;
+	
+}
+.MLI{
+	display: inline-block;
+}
+	
+
+.MA{
+	display: block;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	padding: 10px 25px;
+	text-decoration: none;
+	
+	}
+
+.MMM{
+	  display: none;
+	  
+  }
+
+
+
+
+
+
+
+/* end of hamburger menu*/
+
+/* PLay now sldier*/
+
+.Playnow{
+
+color: white;}
+/* end of play now slider*/
+
+/* Logo Link*/
+
+.LogoP{
+	display: block;
+position: absolute;
+top: -70px;	
+}
+/*Landing Page*/
+
+.HPB{
+  height: 50vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.HPBT{
+text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+font-size: 30px;  
+
+}
+
+.HPBI{
+	color: black;
+	font-size: 20px;
+		
+}
+
+.HPBI:hover{
+	color: black;
+	
+	background-color: #FAFAD2;
+		
+}
+
+
+.HPLL{
+	display: grid;
+	grid-template-columns: 350px 350px 350px 350px;
+	grid-template-rows: 2;
+	justify-content: center;
+	align-content: center;
+	grid-gap: 2px;
+	position: realitive;
+}
+
+figure{
+	
+border: 4px solid #2a1f14;
+display: block;
+padding: 25px;
+max-width: 400px;
+margin-left: 25%;
+margin-right:50px;
+text-align:center;
+background-color: white; 
+color: black;
+	
+}
+figure:hover{
+	box-shadow: 6px 6px 10px #FAFAD2;
+}
+
+
+.HPAG{
+grid-column: 1;
+font-size: 2em;
+text-align: center;
+color: white;
+font-family: 'Silkscreen', cursive;
+
+}
+
+
+.HPFI{
+width: 75px;
+height: 75px;	
+	
+}
+
+
+figcaption{
+	  text-align:center;
+padding: 2%;
+border-top: 4px solid #black;
+	
+}
+
+.HPS{
+	margin-top:25px;
+	text-align: center;
+background-color: grey;
+padding: 2%;
+border-radius: 25%;
+}
+
+p[target="H"] {
+color: white;
+font-size: 25px;
+background-color: grey;
+}
+h2[target="H"] {
+color: white;
+font-size: 35px;
+}
+
+.HH{
+color: white;
+font-size: 20px;
+text-align: center;
+}
+
+.HPS2{
+	color: white;
+	font-size: 20px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+
+.LPR{
+background-color: white;
+color: black;
+
+width: 50%;
+height: 100%;
+ text-align: center;
+ display: block;
+ margin: 200px;
+border: dotted 5px black;
+
+	
+}
+
+.LPR:hover{
+	
+	
+}
+
+
+.LPAS{
+	
+border: outset 10px grey;	
+
+background-color: white;
+color: black;
+padding: 10px;
+
+width: 750px;
+
+
+	
+}
+
+.ROIP{
+display: flex;
+justify-content: center;	
+text-align: center;
+
+align-items: center;
+
+padding-bottom: 10px;
+	
+}
+
+.ROIPB{
+
+Height: 100%;
+
+width:50px;	
+	
+}
+/* End of Landing Page*/
+
+/*Meet the teams page*/
+
+.TPC {
+  padding: 0 16px;
+}
+/* Box shadow for Elijah*/
+.TPCE {
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+/* Box shadow for Darian*/
+.TPCD {
+ box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+/* Box shadow for tosin*/
+.TPCT {
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.TP{
+	float: left;
+  width: 30%;
+  margin-bottom: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+  padding: 0 10px;
+}
+.TPC::after, .TPS::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* makes it appear in a line when on phone*/
+@media only screen and (max-width: 700px) {
+ 
+.MMM{
+	  display: initial;
+	  
+  } 
+  nav{
+	  display: none;
+  }
+  
+  .TPS{
+	margin: auto;
+ max-width: 100%;
+ 
+  
+display: flex;
+    align-items: center;
+justify-content: center;  
+  }
+  
+  .TPC {
+	width: 100%;
+height: 100%;  
+	  
+  }
+  .TP{
+	 width: 100%;
+height: 100%; 
+   
+}
+  .TPCE {box-shadow: none;
+  
+  }
+  .TPCD {box-shadow: none;}
+  .TPCT {box-shadow: none;}
+  
+  
+  .MT{	
+color: White;
+background-color: #be4182;
+
+
+
+}
+
+
+
+.MTT{
+font-family: 'Roboto Condensed', sans-serif;	
+}
+
+  
+  
+}
+
+/*Media for tablet*/
+@media only screen and (max-width: 1024px) {
+	
+	
+  
+	.TPS{
+		width: 50%;
+		margin: auto;
+		display: block;
+		
+	}
+	
+	 .TPC {
+    width: 100%;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+  .TP{
+	
+ width: 100%;
+  
+  margin-bottom: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+  .TPCE {box-shadow: none;}
+  .TPCD {box-shadow: none;}
+  .TPCT {box-shadow: none;}
+  
+  
+  .MT{	
+color: yellow;
+background-color: #be4182;
+
+font-size: 15px;
+
+
+}
+
+
+
+.MTT{
+font-family: 'Roboto Condensed', sans-serif;	
+}
+	
+	
+}
+
+
+
+/* media for big screens */
+@media only screen and  (min-width: 1256px) {
+	
+	
+	
+
+.MT:hover{
+background-color: #e3b5cc;
+color: black;
+font-size: 18px;
+
+}
+
+}
+
+/* Div MT*/
+.MT{	
+color: White;
+background-color: #be4182;
+padding: 2px;
+font-size: 15px;
+
+
+}
+
+.MTT{
+font-family: 'Roboto Condensed', sans-serif;	
+}
+
+
+
+
+body{background-color:  #260d1a;}
+
+img{
+	margin: auto;
+	display: block;
+}
+
+/* MTH*/
+
+.MTH{
+color:white ;
+background-color: ;
+text-align: center;
+
+}
+
+.MTHA{
+	color: White;
+text-decoration: none;
+font-family: 'Alkalami', cursive;}
+
+.MTHA:hover {
+	color:#FAFAD2;
+}
+
+.MTPHS{
+	padding: 5px;
+	
+	text-align: center;
+	background-color: grey;
+	border: dotted black;
+	width: 750px;
+	
+	
+}
+
+
+.TPEC{
+	display: flex;
+    align-items: center;
+justify-content: center;
+	margin:  auto;
+	
+	
+}
+
+/* End of meet the teams page*/
+
+/* Contact Page*/
+
+.CPIS{
+	text-align: center;
+	color: white;
+	margin: 25px;
+	font-size: 30px;
+	
+}
+#CPA{
+	text-decoration: none;
+	font-size: 35px;
+	color: white;
+	
+}
+
+#CPA:hover{
+	text-decoration: none;
+	
+	color: purple;
+	
+}
+
+.CPA{
+	border: solid 4px black;
+	background-color: grey;
+	display: inline-block;
+	padding: 25px;
+	margin-bottom: 50px;
+}
+.CPA:hover{
+	border: solid 4px black;
+	background-color: brown;
+	display: inline-block;
+	padding: 27px;
+	margin-bottom: 50px;
+}
+
+.CPAIA{
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	
+}
+
+.CPBB{
+	background-image: url('../images/WZG.jpg');
+	 background-size: cover;
+	 padding: 75px;
+	border: solid 8px black;	
+	
+	display:block;
+}
+
+.Cform{
+
+position: realitive;
+display: block;
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 50px;
+margin-bottom: 50px;
+right: 150px;
+background-color: white;
+bottom: 150px;
+font-size: 35px;
+width: 25%;
+border: 5px solid gray;
+text-align: left-side;
+
+padding-top: 100px;
+padding-left: 50px;
+padding-bottom: 50px;
+ 
+color: black;	
+}
+
+.Cimage{
+position: realitive;
+left: 150px;
+bottom: 200px;
+width: 500px;
+height: 500px;
+display: none;
+
+
+}
+
+.Cimage2{
+position: realitive;
+left: 35%;
+bottom: 200px;
+width: 500px;
+height: 500px;
+
+
+}
+
+.cimage:hover{
+	
+}
+
+
+
+
+.CPLMB{
+	
+	border: solid 3px black;
+	background-color: purple;
+	text-decoration: none;
+	color: white;
+
+}
+.CPLMB:hover{
+	padding: 2px;
+
+}
+
+
+
+
+
+
+.CPIF{
+height: 600px;
+width: 100%;	
+	
+	
+}
+
+.CPLB{
+	position: realitive;
+	display: inline-block;
+}
+.CPLBG{
+	
+
+margin-left: 20%;
+margin-right: 20%;
+padding-bottom: 50px;
+	
+}
+
+.CPM{
+	display: block;
+	padding:10px;
+	
+}
+
+.Ch1{
+text-align: center;
+font-size: 55px;
+background: -webkit-linear-gradient(white, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.WZG{
+	size: contain;
+	position: absolute;
+
+	display: hidden;
+}
+
+.CPH{
+	color: white;
+	text-align: center;
+	font-size: 35px;
+	background-color: black;
+	color: white;
+	padding: 20px;
+}
+
+/*End of Contact Page*/
+
+
+
+/*start of Results Page*/
+
+.RPH{
+	font-size: 50px;
+	text-align: center;
+	
+	color: white;
+	padding-top: 10px;
+}
+
+.RPB{
+	color: white;
+	background-color: black;
+	font-size: 35px;
+	padding: 5px;
+	position: absolute;
+	text-align: center;
+	left: 50%;
+	top: 350px;
+	
+	
+}
+
+
+
+
+
+
+/*End start of Results Page*/
+
+/* sponsor page start*/
+
+.SPHS{
+	color: white;
+	background-color: grey;
+	padding: 20px;
+	font-size: 25px;
+	
+}
+
+.SPI{
+	
+	border: black dotted 10px;
+	border-radius: 10% 10% 40% 40%;
+	
+	
+}
+
+
+
+
+.SPGI{
+display: grid;	
+	 border: solid black 10px;
+ grid-template-columns: repeat(2, 350px 350px);
+
+align-items: center;
+justify-content: center;
+	margin:  150px;
+	
+	padding-bottom: 20px;
+	
+gap: 10px;
+  background-color: white;    
+}
+
+.SPP{
+	
+	   
+	
+}
+
+.SPII{
+	display: block;
+	   padding: 10px;
+	width: 100%;
+	height: 100%;
+	
+	
+}
+
+.SPHFC{
+	font-size: 45px;
+	text-align: center;
+	
+}
+
+
+/* End of sponsor page*/
+
+/* Game Pgae start*/
+
+
+.GPWS{
+	
+	display: flex;
+	
+	text-align: center;
+	margin: 25px;
+	padding: 15px;
+	column-gap: 10%;
+	
+}
+
+
+.GPB{
+position: realitive;
+height: 250px;
+width: 750px;
+background-image: linear-gradient(purple, pink);	
+border-radius: 10px;
+padding: 2px;
+border: solid black 15px;
+text-align: center;	
+}
+
+
+.GPT{
+	text-align: center;
+	margin: auto;
+	padding: 5px;
+	
+}
+
+.SPT{
+	color: white;
+	background-color: black;
+	padding: 15px; 
+width: 500px;
+
+    align-items: center;
+justify-content: center;
+	margin:  auto;
+	display: inline-block;
+ vertical-align: middle;
+}
+
+.SPASIDE{
+	text-align: center;
+	font-size: 35px;
+	
+}
+.SPTH{
+background-color: #be4182;	
+padding: 10px;
+	
+}
+
+
+.SPTD{
+background-color:;		
+padding: 10px;
+	
+}
+
+.SPTR:nth-child(even){
+background-color: purple;	
+padding: 10px;	
+}
+
+.GPJS{
+	
+	font-size: 30px;
+	
+	background-color: gray;
+	
+	width: 500px;
+	
+	justify-content: center;
+	text-align: center;
+	display: flex;
+	margin: auto;
+	border-radius: 30px;
+	border: ridge black 7px;
+}
+
+.GPFS{
+	width: 500px;
+	background-color: white;
+	border-radius: 10% / 50%;
+	padding: 20px;
+	border: solid black 15px;
+	
+	display: inline-block;
+	 vertical-align: middle;
+	 
+	
+}
+
+
+.GPPD{
+	
+	padding-right: 30px;
+	text-align: center;
+}
+
+/*end of gAME PAGE*/
+
+/* Start of Footer*/
+
+footer{
+ background-color: #4d0028;
+ 
+ display: block;
+ padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+ 
+ 
+}
+
+.CPM{
+	display: block;
+	position: realitive;
+	
+	
+	
+	
+	margin-left: 200px;
+	margin-right: 200px;
+	padding: 10px;
+}
+
+
+.FLUL{
+	list-style: none;
+	
+	
+}
+
+.FLLI{
+	background-color: purple;
+	
+	
+}
+
+.FLA{
+text-align: center;
+color: white;
+text-decoration: none;	
+font-size: 20px;
+
+	
+}
+
+.FLA:hover{
+	color: #FAFAD2;
+	
+	
+}
+
+.FS{
+	text-decoration: none;
+	color: white;
+	font-size:25px;
+	
+}
+.FS:hover{
+	text-decoration: none;
+	color: #FAFAD2;
+	font-size:25px;
+	
+}
+
+/* copy right*/
+.FVL{
+color: white;
+}
+
+.HH{
+	text-align: center;
+	
+}
+
+.FLL{
+	list-style-type: none;
+  margin-right: 25px;
+  padding: 0px;
+  overflow: hidden;
+ 
+	list-style: none;
+	
+}
+
+.FLLAL{
+	list-style: none;
+	
+	
+}
+
+.FLILI{
+	padding: 10px;
+	  float: right;
+}
+
+FII{
+	display: block;
+  padding: 8px;
+  background-color: #dddddd;
+	
+}
+
+
+
+
+
+
+
+
+
+/*End of footer*/
